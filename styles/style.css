@@ -1,0 +1,179 @@
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+
+header nav{
+	background: #00114F;
+	color: white;
+	overflow: auto;
+	padding: 20px 0px
+}
+
+body h1, h2, h4{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+body h2{
+	font-size: 28px;
+}
+
+body p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h2{
+	display: inline-block;
+	font-size: 18px;
+}
+
+header ul{
+	float:right;
+}
+
+header li{
+	display: inline-block;
+	margin: 0px 8px;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+header h1{
+	font-size: 48px;
+	padding: 15px;
+}
+
+header p{
+	padding: 15px;
+}
+
+.centrar{
+	text-align: center;
+	background-color: #18c9d2;
+	color: white;
+	padding: 40px 0px;
+}
+
+header img{
+	height: 187px;
+}
+
+.ion-android-star{
+	font-size: 24px;
+}
+
+.palitoblanco:before{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: white;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.palitoblanco:after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: white;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+
+.palitonegro:before{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: black;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.palitonegro:after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: black;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+
+.centrardos{
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.centrardos img{
+	width: 33%;
+	padding: 6px;
+    box-sizing: border-box;
+}
+
+.parrafo{
+	width: 49%;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5;
+    margin: 20px 0px;
+}
+
+.about{
+	max-width: 700px;
+	margin: auto;
+}
+
+.centrar article a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    padding: 10px 14px;
+	position: relative;
+    top: 10px;
+}
+
+.centrar article{
+	padding: 15px 0px 30px 0px;
+}
+
+.ion-archive{
+	font-size: 22px;
+	padding-right: 15px;
+}
+
+.centrardos form input{
+	display: block;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.centrardos form input:first-child{
+	border-top: 1px solid #bdbdbd;
+}
+
+}
+
+
