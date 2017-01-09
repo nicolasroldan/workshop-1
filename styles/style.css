@@ -4,7 +4,7 @@
 }
 
 header nav{
-	background: #00114F;
+	background: #25455B;
 	color: white;
 	overflow: auto;
 	padding: 20px 0px
@@ -57,9 +57,9 @@ header p{
 
 .centrar{
 	text-align: center;
-	background-color: #18c9d2;
+	background-color: #1db69a;
 	color: white;
-	padding: 40px 0px;
+	padding: 60px 0px;
 }
 
 header img{
@@ -67,7 +67,7 @@ header img{
 }
 
 .ion-android-star{
-	font-size: 24px;
+	font-size: 29px;
 }
 
 .palitoblanco:before{
@@ -92,31 +92,35 @@ header img{
     left: 5px;
 }
 
-.palitonegro:before{
+.palitoazul:before{
     content: "";
     height: 3px;
     width: 70px;
     display: inline-block;
-    background: black;
+    background: #25455B;
     position: relative;
     bottom: 7px;
     right: 5px;
 }
 
-.palitonegro:after{
+.palitoazul:after{
     content: "";
     height: 3px;
     width: 70px;
     display: inline-block;
-    background: black;
+    background: #25455B;
     position: relative;
     bottom: 7px;
     left: 5px;
 }
 
+.starblue{
+    color: #25455B;
+}
+
 .centrardos{
 	text-align: center;
-	margin: 50px 0px;
+	padding: 90px 0px;
 }
 
 .centrardos img{
@@ -132,6 +136,8 @@ header img{
 	line-height: 1.5;
     margin: 20px 0px;
 }
+
+
 
 .about{
 	max-width: 700px;
@@ -162,18 +168,52 @@ header img{
 .centrardos form input{
 	display: block;
     margin: auto;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     border-bottom: 1px solid #bdbdbd;
     border-left: none;
     border-top: none;
     border-right: none;
+    width: 100%;
+    padding: 17px 0px 17px 11px;
+}
+
+.centrardos form textarea{
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 100%;
+    padding: 17px 0px 17px 11px;
 }
 
 .centrardos form input:first-child{
 	border-top: 1px solid #bdbdbd;
 }
 
+.centrardos form input:nth-child(4){
+    padding-bottom: 101px;
+}
+
+.centrardos form{
+	max-width: 700px;
+    margin: auto;
+    padding-top: 15px; 
+}
+
+
+.centrardos form input:last-child{
+    width: 74px;
+    background: #1db69a;
+    color: white;
+    border-radius: 5px;
+    margin-top: 14px;
+    padding: 9px 0px;
+    margin-left: 9px;
 }
 
 
