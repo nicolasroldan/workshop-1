@@ -55,6 +55,19 @@ header p{
 	padding: 15px;
 }
 
+.menu{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    padding: 10px 14px;
+    float: right;
+    margin-right: 20px;
+    display: none;
+}
+
 .centrar{
 	text-align: center;
 	background-color: #1db69a;
@@ -124,9 +137,8 @@ header img{
 }
 
 .centrardos img{
-	width: 33%;
-	padding: 6px;
-    box-sizing: border-box;
+	width: 100%;
+
 }
 
 .parrafo{
@@ -174,7 +186,7 @@ header img{
     border-left: none;
     border-top: none;
     border-right: none;
-    width: 100%;
+    width: 95%;
     padding: 17px 0px 17px 11px;
 }
 
@@ -187,7 +199,7 @@ header img{
     border-left: none;
     border-top: none;
     border-right: none;
-    width: 100%;
+    width: 95%;
     padding: 17px 0px 17px 11px;
 }
 
@@ -217,3 +229,230 @@ header img{
 }
 
 
+.footeruno{
+    background-color: #385c75;
+    padding: 30px 0px 30px 0px;
+}
+
+.footeruno article{
+    color: white;
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.footeruno li{
+    display: inline-block;
+}
+
+.footeruno span{
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius: 49%;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footeruno h4{
+    margin-bottom: 18px;
+}
+
+.footeruno p{
+    font-size: 14px;
+}
+
+.footeruno article:last-child a{
+    color:#1db69a;
+    font-weight: bold;
+}
+
+.footerdos{
+    background: #25455B;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.efecto{
+    width: 31%;
+    display: inline-block;
+    position: relative;
+    margin: 6px;
+}
+
+.efecto span{
+    position: absolute;
+    top:0;
+    left:0; 
+    bottom:3px;
+    right: 0;
+    padding-top: 30%;
+
+}
+
+
+.ion-search{
+    font-size: 48px;
+    opacity: 0;
+    color: white;
+}
+
+.efecto span:hover{
+    opacity: 0.5;
+    transition:1s;
+    background: green;
+}
+
+@media (max-width: 768px){
+
+
+    header nav ul{
+        display: none;
+    }
+
+    header nav div h2{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .menu{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    padding: 10px 14px;
+    float: right;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+header .menu span{
+    margin-left: 8px;
+}
+
+header img {
+    height: 337px;
+}
+
+header p{
+    font-size: 20px;
+}
+
+.efecto {
+    width: 90%;
+}
+
+
+
+.ion-search {
+    font-size: 80px;
+}
+
+body h2{
+    font-size: 60px;
+}
+
+.ion-android-star {
+    font-size: 45px;
+}
+
+.palitoblanco:before {
+    height: 5px;
+    width: 120px;
+    bottom: 12px;
+    right: 8px
+}
+
+.palitoblanco:after {
+    height: 5px;
+    width: 120px;
+    bottom: 12px;
+    left: 8px;
+}
+
+
+.palitoazul:before {
+    height: 5px;
+    width: 120px;
+    bottom: 12px;
+    right: 8px
+}
+
+.palitoazul:after {
+    height: 5px;
+    width: 120px;
+    bottom: 12px;
+    left: 8px;
+}
+
+.parrafo {
+    width: 100%;
+    font-size: 30px;
+}
+
+.centrar article a {
+    font-size: 28px;
+    top: 20px;
+}
+
+.centrardos form input{
+    font-size: 24px;
+}
+
+.centrardos form textarea{
+    font-size: 24px;
+}
+
+.centrardos form input:last-child{
+    font-size: 20px;
+}
+
+.footeruno article {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.footeruno h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footeruno p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contenedor{
+    max-width: 768px;
+    margin: auto;
+}
+
+.footeruno span {
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    border: 2px solid white
+}
+
+.footerdos p{
+    font-size: 16px;
+}
+
+.footerdos{
+    padding: 40px 0px 40px 0px;
+}
+
+}

@@ -21,6 +21,7 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
+				<a class="menu" href="#">Menu<span class="ion-navicon-round"></span></a>
 			</div>
 		</nav>
 
@@ -38,15 +39,35 @@
 			<h2>Portfolio</h2>
 			<span class="palitoazul"><span class="ion-android-star starblue"></span></span>
 			<div>
-				<img src="assets/cabin.png" alt="">
-				<img src="assets/cake.png" alt="">
-				<img src="assets/circus.png" alt="">
+				<div class="efecto">
+					<img src="assets/cabin.png" alt="">
+					<span class="ion-search"></span>
+				</div>
+
+				<div class="efecto">
+					<img src="assets/cake.png" alt="">
+					<span class="ion-search"></span>
+				</div>
+
+				<div class="efecto">
+					<img src="assets/circus.png" alt="">
+					<span class="ion-search"></span>
+				</div>
 			</div>
 
 			<div>
-				<img src="assets/game.png" alt="">
-				<img src="assets/safe.png" alt="">
-				<img src="assets/submarine.png" alt="">
+				<div class="efecto">
+					<img src="assets/game.png" alt="">
+					<span class="ion-search"></span>
+				</div>
+				<div class="efecto">
+					<img src="assets/safe.png" alt="">
+					<span class="ion-search"></span>
+				</div>
+				<div class="efecto">
+					<img src="assets/submarine.png" alt="">
+					<span class="ion-search"></span>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -68,24 +89,27 @@
 	</section>
 
 	<section class="centrardos">
-			<h2>Contact Me</h2>
-			<span class="palitoazul"><span class="ion-android-star starblue"></span></span>
-			<form method:"post" action="enviar.php" enctype:"multipart/form-data">
-				<input type="text" name="nombre" placeholder="Name" required>
-				<input type="email" name"correo" placeholder="Email Adress" required>
-				<input type="number" name="telefono" placeholder="Phone number">
-				<textarea class="mensaje"cols="1" rows="6" placeholder="Message"></textarea>
-				<input type="submit" value="Send">
-			</form>
+		<h2>Contact Me</h2>
+
+		<span class="palitoazul"><span class="ion-android-star starblue"></span></span>
+		
+		<form method:"post" action="enviar.php" enctype:"multipart/form-data">
+			<input type="text" name="nombre" placeholder="Name" required>
+			<input type="email" name"correo" placeholder="Email Adress" required>
+			<input type="number" name="telefono" placeholder="Phone number">
+			<textarea class="mensaje"cols="1" rows="6" placeholder="Message"></textarea>
+			<input type="submit" value="Send">
+		</form>
 	</section>
 
 	<footer>
-		<section>
+		<section class="footeruno">
 			<div class="contenedor">
 
 				<article>
 					<h4>Location</h4>
-					<p>3481 Melrose Place Beverly Hills, CA 90210</p>
+					<p>3481 Melrose Place</p>
+					<p>Beverly Hills, CA 90210</p>
 				</article>
 				<article>
 					<h4>Around the web</h4>
@@ -124,7 +148,7 @@
 			</div>
 
 		</section>
-		<div>
+		<div class="footerdos">
 			<p>Copyright © Your Website 2016</p>
 		</div>
 	</footer>
