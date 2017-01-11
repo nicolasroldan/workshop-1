@@ -4,10 +4,18 @@
 }
 
 header nav{
-	background: #25455B;
+	background: #2C3E50;
 	color: white;
 	overflow: auto;
 	padding: 20px 0px
+}
+
+header nav div ul li a{
+    transition: 0.5s;
+}
+
+header nav div ul li a:hover{
+    color: #1db69a;
 }
 
 body h1, h2, h4{
@@ -226,11 +234,12 @@ header img{
     margin-top: 14px;
     padding: 9px 0px;
     margin-left: 9px;
+    font-weight: 700;
 }
 
 
 .footeruno{
-    background-color: #385c75;
+    background-color: #2C3E50;
     padding: 30px 0px 30px 0px;
 }
 
@@ -246,10 +255,10 @@ header img{
     display: inline-block;
 }
 
-.footeruno span{
-    font-size: 16px;
-    width: 35px;
-    height: 35px;
+.footeruno span {
+    font-size: 26px;
+    width: 45px;
+    height: 45px;
     border-radius: 49%;
     border: 1px solid white;
     display: inline-block;
@@ -257,6 +266,7 @@ header img{
     padding-top: 8px;
     box-sizing: border-box;
     color: white;
+    margin: 0 2px;
 }
 
 .footeruno h4{
@@ -273,7 +283,7 @@ header img{
 }
 
 .footerdos{
-    background: #25455B;
+    background: #233140;
     padding: 20px 0px 20px 0px;
     text-align: center;
     color: white;
@@ -304,11 +314,25 @@ header img{
     color: white;
 }
 
-.efecto span:hover{
-    opacity: 0.5;
+.efecto span{
     transition:1s;
-    background: green;
 }
+
+.efecto span:hover{
+    opacity: 0.8;
+    background: #1db69a;
+}
+
+.footeruno span{
+    transition: 0.5s;
+}
+
+.footeruno span:hover{
+    color: #1db69a;
+    background: white;
+}
+
+/*MEDIA QUERY*/
 
 @media (max-width: 768px){
 
@@ -336,6 +360,11 @@ header img{
     display: inline-block;
 }
 
+.menu:hover{
+    background: #1db69a;
+    border: 1px solid #1db69a;
+}
+
 header .menu span{
     margin-left: 8px;
 }
@@ -349,7 +378,7 @@ header p{
 }
 
 .efecto {
-    width: 90%;
+    width: 80%;
 }
 
 
