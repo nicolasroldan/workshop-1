@@ -12,10 +12,16 @@ header nav{
 
 header nav div ul li a{
     transition: 0.5s;
+    padding: 10px 10px;
 }
 
 header nav div ul li a:hover{
     color: #1db69a;
+}
+
+header nav div ul li a:focus{
+    color: white;
+    background: #1db69a;
 }
 
 body h1, h2, h4{
@@ -43,7 +49,6 @@ header ul{
 
 header li{
 	display: inline-block;
-	margin: 0px 8px;
 }
 
 header a{
@@ -304,7 +309,7 @@ header img{
     bottom:3px;
     right: 0;
     padding-top: 30%;
-
+    transition: 1s;
 }
 
 
@@ -314,12 +319,9 @@ header img{
     color: white;
 }
 
-.efecto span{
-    transition:1s;
-}
 
 .efecto span:hover{
-    opacity: 0.8;
+    opacity: 0.9;
     background: #1db69a;
 }
 
@@ -358,6 +360,7 @@ header img{
     float: right;
     margin-right: 20px;
     display: inline-block;
+    transition: 1s;
 }
 
 .menu:hover{
@@ -461,6 +464,8 @@ body h2{
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 89%;
+    margin: auto;
 }
 
 .contenedor{
